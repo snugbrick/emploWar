@@ -6,6 +6,7 @@ public final class EmploWar extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        Bukkit.getServer
     }
 
     @Override
