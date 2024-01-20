@@ -11,7 +11,7 @@ package cn.m1racleur.emplowar.api.ymlGetter
 @return String? -> 返回所得value，如果key不存在，则返回null
  */
 enum class Employees(private val enuKey: String) {
-    EMPLOYEE("employee"),
+    EMPLOYEE("employee");
 
     private val configGet = ConfigGet()
     private var ymlKey = "null"
