@@ -8,14 +8,17 @@ public final class EmploWar extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("EmploWar Enabled!");
-        onStart();
+
     }
     public void onStart(){
         String emploValue =  Employees.EMPLOYEE.getValue("emplo");
-        getLogger().info(emploValue);
     }
 
     @Override
     public void onDisable() {
+    }
+
+    public static void main(String[] args) {
+        onStart();
     }
 }
