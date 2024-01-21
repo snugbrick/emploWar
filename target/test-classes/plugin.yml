@@ -1,4 +1,0 @@
-name: emploWar
-version: '${project.version}'
-main: cn.m1racleur.emplowar.EmploWar
-api-version: '1.20'
