@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="emploWar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="565a6a0e-9ab9-460c-bacc-fb8bfd74f6d5" name="更改" comment="[feat] Knapsack &amp; Emplos interface">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/api/emplo/Emplos.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/employees/Archer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/employees/Soldier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/EmploWar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/EmploWar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/api/emplo/Emplos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/api/emplo/Knapsack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/api/emplo/Knapsack.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/api/ymlGetter/Employees.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/api/ymlGetter/Employees.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Enum" />
+        <option value="Interface" />
+        <option value="Kotlin Interface" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/emploWar_Main/src/main/java/cn/m1racleur/emplowar_main/EmploWar_Main.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2b5dJhVAO8r7gauh6qX502LgKbp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.com.intellij.ui.dsl.builder.impl.RowImpl.sdk&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/.FJavaProject/emploWar/emploWar_Main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.42231077&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;jdk.preference.com.intellij.ui.dsl.builder.impl.RowImpl.sdk&quot;: [
+      &quot;19=C:/Users/张波洋/.jdks/openjdk-19.0.1&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\.FJavaProject\emploWar\emploWar_Main" />
+      <recent name="F:\.FJavaProject\emploWar\src\test" />
+      <recent name="F:\.FJavaProject\emploWar\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\.FJavaProject\emploWar" />
+      <recent name="F:\.FJavaProject\emploWar\emploWar_Main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.emploWar package">
+    <configuration name="plugin test" type="JarApplication">
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="JAR_PATH" value="$USER_HOME$/Desktop/1.20.2/spigot-1.20.2.jar" />
+      <option name="VM_PARAMETERS" value="-Xms2G -Xmx2G -XX:+UseG1GC" />
+      <option name="PROGRAM_PARAMETERS" value="--nogui" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\张波洋\Desktop\1.20.2" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="emploWar package" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2" />
+    </configuration>
+    <configuration name="emploWar_Main package" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JAR 应用程序.plugin test" />
+      <item itemvalue="Maven.emploWar_Main package" />
+      <item itemvalue="Maven.emploWar package" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="565a6a0e-9ab9-460c-bacc-fb8bfd74f6d5" name="更改" comment="" />
+      <created>1705508805437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705508805437</updated>
+      <workItem from="1705508806584" duration="118000" />
+      <workItem from="1705509233935" duration="8000" />
+      <workItem from="1705509335859" duration="37000" />
+      <workItem from="1705777608280" duration="121000" />
+      <workItem from="1705777753523" duration="4930000" />
+      <workItem from="1705782729224" duration="4320000" />
+      <workItem from="1705787149442" duration="1559000" />
+      <workItem from="1705788792801" duration="5508000" />
+      <workItem from="1705794849132" duration="247000" />
+      <workItem from="1705852030658" duration="2285000" />
+      <workItem from="1705856127846" duration="71000" />
+      <workItem from="1705856203833" duration="5306000" />
+      <workItem from="1705902015049" duration="1411000" />
+      <workItem from="1705904490149" duration="1392000" />
+      <workItem from="1705905887857" duration="4071000" />
+    </task>
+    <task id="LOCAL-00001" summary="yml getter">
+      <option name="closed" value="true" />
+      <created>1705783386073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705783386073</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[fix bug]yml getter">
+      <option name="closed" value="true" />
+      <created>1705783465384</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705783465384</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[feat] Knapsack &amp; Emplos interface">
+      <option name="closed" value="true" />
+      <created>1705854031732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705854031732</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="yml getter" />
+    <MESSAGE value="[fix bug]yml getter" />
+    <MESSAGE value="[feat] Knapsack &amp; Emplos interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat] Knapsack &amp; Emplos interface" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="2c2702">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/api/ymlGetter/Employees.kt" />
+                  <option value="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/api/ymlGetter/ConfigGet.kt" />
+                </list>
+              </option>
+              <option name="id" value="2c2702" />
+              <option name="initiateTms" value="1705782229709" />
+              <option name="request" value="this is the class and method enum class Employees(private val enuKey: String) {&#10;    EMPLOYEE(&quot;employee&quot;),&#10;    MANAGER(&quot;manager&quot;);&#10;&#10;    private val configGet = ConfigGet()&#10;    private var ymlKey = &quot;null&quot;&#10;    private var value: String? = null&#10;&#10;    fun getValue(key: String): String? {&#10;        ymlKey = key&#10;        value = configGet.getConfig(&quot;src/main/resources/$enuKey.yml&quot;, ymlKey)&#10;        return value&#10;    }&#10;}&#10;" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Thank you for providing the code for the `enum class Employees`. Based on the code you provided, it seems that the error you mentioned earlier is related to the usage of the `Employees` enum class.&#10;&#10;The `Employees` enum class has a method called `getValue()` that takes a `key` parameter and returns a `String?` value. This method is used to retrieve values from a YAML file based on the specified key.&#10;&#10;To use the `getValue()` method correctly, you need to follow these steps:&#10;&#10;1. Import the `cn.m1racleur.emplowar.api.ymlGetter.ConfigGet` class at the top of your file:&#10;&#10;```kotlin&#10;import cn.m1racleur.emplowar.api.ymlGetter.ConfigGet&#10;```&#10;&#10;2. Make sure that the `ConfigGet` class is available and accessible in your project.&#10;&#10;3. To retrieve a value from the YAML file, you can call the `getValue()` method on the desired enum value. For example, to get the value for the key &quot;emplo&quot; for the `EMPLOYEE` enum value, you can use the following code:&#10;&#10;```kotlin&#10;val value = Employees.EMPLOYEE.getValue(&quot;emplo&quot;)&#10;```&#10;&#10;Make sure to replace `Employees.EMPLOYEE` with the desired enum value (`EMPLOYEE` or `MANAGER`) and provide the correct key as the argument to the `getValue()` method.&#10;&#10;By following these steps, you should be able to fix the error and retrieve the desired values from the YAML file using the `getValue()` method of the `Employees` enum class. Let me know if you need further assistance!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705782241767" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/api/ymlGetter/Employees.kt" />
+                  <option value="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/api/ymlGetter/ConfigGet.kt" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="dd7b8e">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/EmploWar.java" />
+                </list>
+              </option>
+              <option name="id" value="dd7b8e" />
+              <option name="initiateTms" value="1705782156212" />
+              <option name="request" value="How to fix the following error:&#10;应为方法调用" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="The error message &quot;应为方法调用&quot; in English translates to &quot;Expected method call&quot;. This error is indicating that there is an issue with the syntax of a method call in your code.&#10;&#10;Looking at your code, I can see that there is a method call in the `onStart()` method:&#10;&#10;```java&#10;Employees.EMPLOYEE(&quot;employee&quot;).getValue(&quot;emplo&quot;);&#10;```&#10;&#10;To fix the error, you need to make sure that the method call is correct. Here are a few possible solutions depending on the intended functionality:&#10;&#10;1. If `EMPLOYEE` is a method that returns an object, and `getValue()` is a method of that object, you need to make sure that the method names and parameters are correct. For example:&#10;&#10;```java&#10;Employees employee = Employees.EMPLOYEE(&quot;employee&quot;);&#10;String value = employee.getValue(&quot;emplo&quot;);&#10;```&#10;&#10;2. If `EMPLOYEE` is a static method that returns a value directly, and `getValue()` is a static method, you can call them directly without creating an instance of the class. For example:&#10;&#10;```java&#10;String value = Employees.EMPLOYEE(&quot;employee&quot;).getValue(&quot;emplo&quot;);&#10;```&#10;&#10;Make sure to check the documentation or the implementation of the `Employees` class to understand the correct method calls and parameters.&#10;&#10;Once you have made the necessary changes, the error should be resolved. Let me know if you need further assistance!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1705782165921" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/cn/m1racleur/emplowar/EmploWar.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="greeting">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="greeting" />
+              <option name="initiateTms" value="1705779900967" />
+              <option name="request" value="" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="&#10;Hello, I am Machinet AI - context aware chat, which can help you with your daily programming routine. How can I help?" />
+              <option name="responseTms" value="1705779902854" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

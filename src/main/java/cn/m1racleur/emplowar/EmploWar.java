@@ -5,7 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 
 public final class EmploWar extends JavaPlugin {
-    private final EmploWar instance = this;
+    private EmploWar instance = this;
 
     @Override
     public void onEnable() {
@@ -21,6 +21,7 @@ public final class EmploWar extends JavaPlugin {
 
     @Override
     public void onDisable() {
+        instance = null;
     }
 
     public EmploWar getInstance() {

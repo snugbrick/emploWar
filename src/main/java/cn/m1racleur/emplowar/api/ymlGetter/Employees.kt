@@ -1,8 +1,6 @@
 package cn.m1racleur.emplowar.api.ymlGetter
 
-import org.bukkit.Bukkit
 import java.io.File
-import java.nio.file.Paths
 
 
 /**
@@ -25,7 +23,7 @@ enum class Employees(private val enuPath: String) {
     fun getValue(key: String): String? {
         ymlKey = key
 
-        val file = File("$enuPath.yml")
+        val file = File("..\\$enuPath.yml")
         value = configGet.getConfig(file, ymlKey)
 
         return value
