@@ -1,0 +1,27 @@
+Index: .idea/git_toolbox_prj.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GitToolBoxProjectSettings\">\r\n    <option name=\"showEditorInlineBlameOverride\">\r\n      <BoolValueOverride>\r\n        <option name=\"enabled\" value=\"true\" />\r\n      </BoolValueOverride>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/git_toolbox_prj.xml b/.idea/git_toolbox_prj.xml
+--- a/.idea/git_toolbox_prj.xml	(revision dd02c8c609510acb0c0cbf7109cc62a0ab5bd0a3)
++++ b/.idea/git_toolbox_prj.xml	(date 1705910530156)
+@@ -1,6 +1,16 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="GitToolBoxProjectSettings">
++    <option name="commitMessageIssueKeyValidationOverride">
++      <BoolValueOverride>
++        <option name="enabled" value="true" />
++      </BoolValueOverride>
++    </option>
++    <option name="commitMessageValidationEnabledOverride">
++      <BoolValueOverride>
++        <option name="enabled" value="true" />
++      </BoolValueOverride>
++    </option>
+     <option name="showEditorInlineBlameOverride">
+       <BoolValueOverride>
+         <option name="enabled" value="true" />
