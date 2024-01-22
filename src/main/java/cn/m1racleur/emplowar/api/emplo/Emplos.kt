@@ -4,19 +4,24 @@ import org.bukkit.inventory.ItemStack
 
 /** @version 1.0.0 2024.01.22 14:54 @author MiracleUR -> github.com/snugbrick */
 interface Emplos {
-    val name: String?
+    val name: String
 
-    val lore: String?
+    val lore: String
 
-    val deffKnapsack: Array<ItemStack> // 背包
+    val deffBackPack: Array<ItemStack> // 背包
 
-    fun getName(): String? {
+    val icon: ItemStack
+
+    fun getName(): String {
         return name
     }
-    fun getLore(): String? {
+    fun getLore(): String {
         return lore
     }
-    fun getdDeffKnapsack(): Array<ItemStack> {
-        return deffKnapsack
+    fun getIcon(): ItemStack {
+        return icon
+    }
+    fun getdDeffBackPack(): Array<ItemStack> {
+        return deffBackPack
     }
 }
