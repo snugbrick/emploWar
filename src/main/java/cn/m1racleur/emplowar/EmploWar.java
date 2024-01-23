@@ -1,6 +1,7 @@
 package cn.m1racleur.emplowar;
 
-import cn.m1racleur.emplowar.api.ymlGetter.Employees;
+import cn.m1racleur.emplowar.gui.emploGui;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 
@@ -15,8 +16,8 @@ public final class EmploWar extends JavaPlugin {
     }
 
     public void onStart() {
-        String emploValue = Employees.EMPLOYEE.getValue("emplo");
-        getLogger().info(emploValue);
+        emploGui empGui=new emploGui();//职业选择gui创建
+        empGui.gui();
     }
 
     @Override
@@ -24,8 +25,7 @@ public final class EmploWar extends JavaPlugin {
         instance = null;
     }
 
-    public EmploWar getInstance() {
+    public Plugin getInstance() {
         return instance;
     }
-
 }

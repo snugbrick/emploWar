@@ -1,8 +1,8 @@
 package cn.m1racleur.emplowar.api.register
 
 import cn.m1racleur.emplowar.api.emplo.Emplos
-import cn.m1racleur.emplowar.employees.Soldier
 import cn.m1racleur.emplowar.employees.Archer
+import cn.m1racleur.emplowar.employees.Soldier
 import org.bukkit.inventory.ItemStack
 
 /**
@@ -10,6 +10,7 @@ import org.bukkit.inventory.ItemStack
  *
  * gui的内容(之所以分开写是因为我后面要调用别的UI api,所以内容暂时注册在这里备用)
  */
+@Deprecated(message = "已废弃，请查看: src/main/java/cn/m1racleur/emplowar/GUI/emploGui.kt")
 class guiContent {
     private lateinit var addIcon: ItemStack
     private lateinit var name: String
@@ -25,10 +26,11 @@ class guiContent {
 
         val lore = emp.getLore()
         this.lore = lore
-        
+
         this.backPack = emp.getdDeffBackPack()
     }
-    fun emploReg{
+
+    fun emploReg() {
         register(Soldier());
         register(Archer());
     }
