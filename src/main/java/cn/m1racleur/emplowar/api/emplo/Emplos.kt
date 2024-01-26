@@ -12,13 +12,13 @@ interface Emplos {
 
     val icon: ItemStack
 
-    fun getName(): String {
+    fun getNameA(): String {
         return name
     }
-    fun getLore(): String {
+    fun getLoreA(): String {
         return lore
     }
-    fun getIcon(): ItemStack {
+    fun getIconA(): ItemStack {
         return icon
     }
     fun getdDeffBackPack(): Array<ItemStack> {

@@ -18,13 +18,13 @@ class guiContent {
     private lateinit var backPack: Array<ItemStack>
 
     fun register(emp: Emplos) {
-        val icon = emp.getIcon()
+        val icon = emp.getIconA()
         addIcon = icon // SB vscode
 
-        val name = emp.getName()
+        val name = emp.getNameA()
         this.name = name
 
-        val lore = emp.getLore()
+        val lore = emp.getLoreA()
         this.lore = lore
 
         this.backPack = emp.getdDeffBackPack()

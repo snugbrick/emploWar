@@ -10,16 +10,22 @@ import org.bukkit.Material
 @author MiracleUR -> github.com/snugbrick
  */
 class EmploGui {
-    private lateinit var menu: Menu
-    fun gui() {
-        val solIcon = ConfigurableIcon.create(Material.DIAMOND_SWORD)
-        val arcIcon = ConfigurableIcon.create(Material.BOW)
+    lateinit var menu: Menu
+    val solIcon = ConfigurableIcon.create(Material.DIAMOND_SWORD)
+    val arcIcon = ConfigurableIcon.create(Material.BOW)
 
+    fun gui() {
+        //设置名字
+        solIcon.name = "Soldier"
+        arcIcon.name = "Archer"
+
+        //设置简介
         solIcon.setLore("Soldier! complete your mission")
-        solIcon.setLore("Archer, bow dog is Not Supported!")
+        arcIcon.setLore("Archer, bow dog is Not Supported!")
 
         val emploWar = EmploWar()
         menu = Menu.create(emploWar.instance, "employees", 6)
+
         menu.setIcon(0, 0, solIcon)
         menu.setIcon(0, 1, arcIcon)
     }

@@ -1,4 +1,12 @@
 name: emploWar
-version: '${project.version}'
+version: 1.0.0
 main: cn.m1racleur.emplowar.EmploWar
 api-version: '1.20'
+authors: [ MiracleUR ]
+depend: [ ChestCommands ]
+softdepend: [ ]
+commands:
+  openEmploGui:
+    description: openEmploGui
+    permission: ""
+    permission-message: "你执行不了啊awa"

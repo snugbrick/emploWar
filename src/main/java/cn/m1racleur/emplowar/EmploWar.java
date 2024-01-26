@@ -1,6 +1,7 @@
 package cn.m1racleur.emplowar;
 
-import cn.m1racleur.emplowar.gui.emploGui;
+import cn.m1racleur.emplowar.gui.EmploGui;
+import cn.m1racleur.emplowar.gui.playerClick.OpenGui;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -16,8 +17,7 @@ public final class EmploWar extends JavaPlugin {
     }
 
     public void onStart() {
-        emploGui empGui=new emploGui();//职业选择gui创建
-        empGui.gui();
+        getCommand("openEmploGui").setExecutor(new OpenGui());
     }
 
     @Override
