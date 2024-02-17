@@ -11,12 +11,14 @@ public final class EmploWar extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("EmploWar Enabled!");
+        saveDefaultConfig();
 
         onStart();
     }
 
     public void onStart() {
+        getLogger().info("EmploWar Enabled!");
+
         getCommand("openEmploGui").setExecutor(new OpenGui());
     }
 
